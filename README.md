@@ -23,6 +23,7 @@
 | 프로젝트 | 설명 | 진입점 |
 | --- | --- | --- |
 | `interviewmate-ai` | 신입 개발자 취업 준비생을 위한 한국어 AI 취업 준비 플랫폼. | [`interviewmate-ai/README.md`](interviewmate-ai/README.md) |
+| `dopacheck` | 배달 지출·SNS 시간 소비를 분석해 도파민 점수를 산출하는 Flask 앱. | [`dopacheck/README.md`](dopacheck/README.md) |
 <!-- project-index:end -->
 
 ## 저장소 독립성

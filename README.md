@@ -24,6 +24,7 @@
 | --- | --- | --- |
 | `interviewmate-ai` | 신입 개발자 취업 준비생을 위한 한국어 AI 취업 준비 플랫폼. | [`interviewmate-ai/README.md`](interviewmate-ai/README.md) |
 | `dopacheck` | 배달 지출·SNS 시간 소비를 분석해 도파민 점수를 산출하는 Flask 앱. | [`dopacheck/README.md`](dopacheck/README.md) |
+| `review-sentiment` | NSMC 기반 영화 리뷰 감성 분석 및 모델 해석 시각화. 머신러닝 수업 과제. | [`review-sentiment/README.md`](review-sentiment/README.md) |
 <!-- project-index:end -->
 
 ## 저장소 독립성
@@ -37,12 +38,13 @@
 
 ## 포트폴리오 맥락
 
-주제 발굴 시 저장소에 등록된 프로젝트뿐 아니라 다음 기존 프로젝트도 중복 비교 대상으로 사용합니다.
+주제 발굴 시 저장소에 등록된 프로젝트뿐 아니라 다음 기존 프로젝트도 중복 비교 대상으로 사용합니다. review-sentiment는 Mooditree의 발전형 프로젝트로, 동일 감정 도메인을 UI 중심에서 ML 중심으로 확장합니다.
 
 | 프로젝트 | 상태 | 주제 발굴 시 고려할 영역 |
 | --- | --- | --- |
 | InterviewMate AI | 이 저장소에서 관리 | 취업 준비, 자기소개서·이력서, 직무 매칭, 면접 연습. |
 | MeetingHub | 기존 프로젝트, 이 저장소에는 미등록 | 회의록 수집·요약·분석, 회의 후속 작업. |
+| Mooditree | 기존 포트폴리오 프로젝트, 이 저장소에는 미등록 | 감정 기록 기반 콘텐츠 추천 UI (review-sentiment 원천 연결). |
 
 새 프로젝트 후보, 평가 기준, 보류·배제 사유는 [`_workspace-docs/topic-brainstorming.md`](_workspace-docs/topic-brainstorming.md)에서 관리합니다.
 

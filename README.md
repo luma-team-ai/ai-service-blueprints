@@ -24,8 +24,9 @@
 | --- | --- | --- |
 | `interviewmate-ai` | 신입 개발자 취업 준비생을 위한 한국어 AI 취업 준비 플랫폼. | [`interviewmate-ai/README.md`](interviewmate-ai/README.md) |
 | `dopacheck` | 배달 지출·SNS 시간 소비를 분석해 도파민 점수를 산출하는 Flask 앱. | [`dopacheck/README.md`](dopacheck/README.md) |
-| `review-sentiment` | NSMC 기반 영화 리뷰 감성 분석 및 모델 해석 시각화. 머신러닝 수업 과제. | [`review-sentiment/README.md`](review-sentiment/README.md) |
 <!-- project-index:end -->
+
+> `review-sentiment`(NSMC 감성 분석 ML 과제)는 별도 단일 레포로 분리·이관되었습니다 → [Ketose333/review-sentiment](https://github.com/Ketose333/review-sentiment)
 
 ## 저장소 독립성
 

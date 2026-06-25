@@ -26,7 +26,7 @@
 
 > `review-sentiment`(NSMC 감성 분석 ML 과제)는 별도 단일 레포로 분리·이관되었습니다 → [Ketose333/review-sentiment](https://github.com/Ketose333/review-sentiment)
 >
-> `music-mood-recs`(음악 무드 분류+추천 DL 과제)는 이 레포 바깥의 형제 디렉터리 `../music-mood-recs`에서 별도 레포로 관리됩니다. 후보 평가·승격 근거는 [`_workspace-docs/topic-brainstorming.md`](_workspace-docs/topic-brainstorming.md#t-026-음악-무드-분류-및-콘텐츠-기반-추천)에 있습니다.
+> `music-mood-recs`(음악 무드 분류+추천 DL 과제)는 이 레포 바깥의 형제 디렉터리 `../music-mood-recs`에서 별도 레포로 관리됩니다 → [Ketose333/music-mood-recs](https://github.com/Ketose333/music-mood-recs). 후보 평가·승격 근거는 [`_workspace-docs/topic-brainstorming.md`](_workspace-docs/topic-brainstorming.md#t-026-음악-무드-분류-및-콘텐츠-기반-추천)에 있습니다.
 
 ## 저장소 독립성
 

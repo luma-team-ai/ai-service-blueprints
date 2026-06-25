@@ -136,6 +136,32 @@ foreach ($project in $projectDirs) {
       Add-Failure "Legacy top-level project docs directory is not allowed: $(Relative-Path $legacy)"
     }
   }
+
+  $projectDocsDir = Join-Path $project.FullName 'docs'
+  $phaseFiles = if (Test-Path -LiteralPath $projectDocsDir -PathType Container) {
+    Get-ChildItem -LiteralPath $projectDocsDir -File -Filter 'prd-phase-*.md'
+  } else {
+    @()
+  }
+
+  $seenPhaseNumbers = @{}
+  foreach ($phaseFile in $phaseFiles) {
+    if ($phaseFile.Name -notmatch '^prd-phase-(?<num>\d+)-(?<slug>[a-z0-9]+(-[a-z0-9]+)*)\.md$') {
+      Add-Failure "Phase PRD filename must match prd-phase-{n}-{topic-slug}.md: $($project.Name)/docs/$($phaseFile.Name)"
+      continue
+    }
+
+    $phaseNumber = [int]$Matches['num']
+    if ($seenPhaseNumbers.ContainsKey($phaseNumber)) {
+      Add-Failure "Duplicate phase number ($phaseNumber) in $($project.Name): $($project.Name)/docs/$($phaseFile.Name)"
+    }
+    $seenPhaseNumbers[$phaseNumber] = $true
+
+    $phaseContent = Get-Content -LiteralPath $phaseFile.FullName -Raw -Encoding utf8
+    if ($phaseContent -notmatch [regex]::Escape('docs/prd.md')) {
+      Add-Failure "Phase PRD must link back to docs/prd.md: $($project.Name)/docs/$($phaseFile.Name)"
+    }
+  }
 }
 
 $markdownPaths = @(& git -C $Root -c core.quotepath=false ls-files --cached --others --exclude-standard -- '*.md')

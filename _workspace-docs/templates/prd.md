@@ -9,7 +9,8 @@
 | 마지막 업데이트 | |
 | 목표 릴리즈 또는 마일스톤 | |
 | 원천 후보 | `../../_workspace-docs/topic-brainstorming.md#...` / `T-000` |
-| 관련 문서 | |
+| Phase | `0`(MVP, `docs/prd.md`) 또는 `{n}`(`docs/prd-phase-{n}-{주제-slug}.md`). Phase 1 이상이면 어떤 도메인/주제 확장인지 한 줄로 적습니다. |
+| 관련 문서 | Phase 1 이상이면 `docs/prd.md`(Phase 0)로 돌아가는 링크 필수. |
 
 ### 변경 이력
 
@@ -209,7 +210,7 @@ Then [관찰 가능한 결과]
 
 ### Future
 
-장기 확장 항목.
+같은 도메인/주제의 장기 확장 항목만 짧게 남깁니다. **다른 도메인이나 기술 영역으로 넘어가는 항목은 여기 쌓지 말고 `docs/prd-phase-{n}-{주제-slug}.md`로 분리합니다.** 규칙은 `_workspace-docs/README.md`의 "Phase 분리 규칙" 참고.
 
 ## 21. 가정과 검증
 

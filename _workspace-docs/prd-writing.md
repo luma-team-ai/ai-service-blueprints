@@ -28,7 +28,7 @@ Workspace PRD Writing System
 - `_workspace-docs/README.md`
 - `_workspace-docs/templates/prd.md`
 - `_workspace-docs/templates/docs.md`
-- 대표 프로젝트 PRD 한두 개. 예: `interviewmate-ai/docs/prd.md`
+- 대표 프로젝트 PRD 한두 개. 예: `dopacheck/docs/prd.md`
 
 다음 노트를 만듭니다.
 

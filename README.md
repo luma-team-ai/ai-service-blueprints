@@ -15,14 +15,12 @@
 | [`_workspace-docs/prd-writing.md`](_workspace-docs/prd-writing.md) | 공용 PRD 작성법을 개선하는 절차. |
 | [`_workspace-docs/templates/`](_workspace-docs/templates) | 주제 발굴, PRD, 핵심 기능, 아키텍처, 백엔드, 데이터 모델, API, 일반 문서 템플릿. |
 | [`scripts/validate-workspace.ps1`](scripts/validate-workspace.ps1) | 워크스페이스 문서 구조 검증 스크립트. |
-| [`interviewmate-ai/`](interviewmate-ai/README.md) | 한국어 AI 취업 준비 플랫폼 프로젝트. |
 
 <!-- project-index:start -->
 ## 현재 프로젝트
 
 | 프로젝트 | 설명 | 진입점 |
 | --- | --- | --- |
-| `interviewmate-ai` | 신입 개발자 취업 준비생을 위한 한국어 AI 취업 준비 플랫폼. | [`interviewmate-ai/README.md`](interviewmate-ai/README.md) |
 | `dopacheck` | 배달 지출·SNS 시간 소비를 분석해 도파민 점수를 산출하는 Flask 앱. | [`dopacheck/README.md`](dopacheck/README.md) |
 <!-- project-index:end -->
 
@@ -43,7 +41,7 @@
 
 | 프로젝트 | 상태 | 주제 발굴 시 고려할 영역 |
 | --- | --- | --- |
-| InterviewMate AI | 이 저장소에서 관리 | 취업 준비, 자기소개서·이력서, 직무 매칭, 면접 연습. |
+| 취업 준비 영역 | 기존 프로젝트, 이 저장소에는 미등록(레거시 종료) | 취업 준비, 자기소개서·이력서, 직무 매칭, 면접 연습. |
 | MeetingHub | 기존 프로젝트, 이 저장소에는 미등록 | 회의록 수집·요약·분석, 회의 후속 작업. |
 | Mooditree | 기존 포트폴리오 프로젝트, 이 저장소에는 미등록 | 감정 기록 기반 콘텐츠 추천 UI (review-sentiment 원천 연결). |
 
